@@ -212,6 +212,9 @@ input:hover{
 input:focus{
     background-color:rgb(153, 250, 213);
 }
+#l{
+    color: white;
+}
 /* Pantalla 480*/
 @media (max-width: 700px){
     body{
