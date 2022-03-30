@@ -1,5 +1,5 @@
 /* Pantalla 1280*/
-body{
+*{
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 h2,h1,h4{
@@ -175,6 +175,18 @@ p{
     display: flex;
     justify-content: space-between;
 }
+#imgfooter1:hover{
+    background-color: rgb(62, 152, 212);
+    transform: scale(1.2);
+} 
+#imgfooter2:hover{
+    background-color: red;
+    transform: scale(1.2);
+} 
+#imgfooter3:hover{
+    background-color: rgb(214, 51, 146);
+    transform: scale(1.2);
+} 
 .subfooter3{
     height: 10vh;
 }
