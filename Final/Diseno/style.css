@@ -117,7 +117,7 @@ p{
     position: relative;
     left: 45%;
 }
-#pieImagen{
+#pieimagen{
     display: none;
 }
 #primerfooter{
@@ -171,6 +171,7 @@ p{
     position: relative;
     bottom: 25%;
 }
+
 #iconos{
     display: flex;
     justify-content: space-between;
@@ -206,6 +207,7 @@ p{
     border-style: none;
     font-weight: 600;
 }
+
 #boton4{
     padding: 1.5vh 1.5vw;
     border-radius: 20px;
@@ -218,12 +220,14 @@ button:hover{
     cursor: pointer;
     
 }
+
 input:hover{
     background-color: lightblue;
 }
 input:focus{
     background-color:rgb(153, 250, 213);
 }
+
 #l{
     color: white;
 }
@@ -234,6 +238,7 @@ input:focus{
         background-repeat: repeat-y;
         background-position: 0 -10%;
     }
+    
     #listasuperior{
         display: none;
     }
@@ -246,6 +251,7 @@ input:focus{
     #barrasuperior{
         justify-content: space-between;
     }
+    
     #logosuperior{
         margin-left: 3vh;
     }
@@ -299,7 +305,7 @@ input:focus{
         display: none;
     }
     #tercero{
-        margin-left: 6vw;
+        margin-left: vw;
     }
     #hijo{
         width: 70%;
@@ -309,12 +315,43 @@ input:focus{
         flex-direction: column;
         
     }
-    #pieImagen{
-        display: inline;
-        width: 20%;
+    input[type='radio']:after {
+        width: 10px;
+        height: 10px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
         position: relative;
-        left: 42%;
-        padding: 3vh 0 ;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+    input[type='radio']:checked:after {
+        width: 10px;
+        height: 10px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #F3603B;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+    #pieimagen{
+        margin-top: 2vh;
+        display: inherit;
+    text-align: center;
+    }
+    #subpieimagen{
+        border: 1px solid #F3603B;
+        }
+    #subpieimagen{
+        width: 2vw;
     }
     .posboton1{
         position: relative;
@@ -337,7 +374,7 @@ input:focus{
         left: 3%;
     }
     #segundofooter{
-        padding: 7vh 0vh 20vh;
+        padding: 7vh 0vh 27vh;
         flex-direction:row-reverse;
         flex-wrap:wrap-reverse
     }
