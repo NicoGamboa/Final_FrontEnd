@@ -101,7 +101,6 @@ p{
 }
 #tercero{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     background-color: #FAFAFA;
 }
@@ -220,7 +219,12 @@ button:hover{
     cursor: pointer;
     
 }
-
+#formulario input[type='email']:invalid{
+    border: 5px solid red;
+}
+#formulario input[type='email']:valid{
+    border: 3px solid rgb(126, 247, 61);
+}
 input:hover{
     background-color: lightblue;
 }
@@ -303,9 +307,6 @@ input:focus{
     }
     .personaDyI{
         display: none;
-    }
-    #tercero{
-        margin-left: vw;
     }
     #hijo{
         width: 70%;
