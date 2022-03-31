@@ -246,8 +246,16 @@ input:focus{
     #listasuperior{
         display: none;
     }
+    input#menu{
+        visibility: hidden;
+    }
+    input:checked  ~ #listasuperior{
+        display:block;
+    }
     #menu{
         display: inline;
+        margin-right: 5vw;
+        
     }
     .botonuno{
         display: none;
